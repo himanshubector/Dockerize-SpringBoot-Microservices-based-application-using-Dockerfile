@@ -1,0 +1,17 @@
+
+Build the microservice application in IntelliJ using maven package to generate the updated jar file under target folder
+
+
+
+Go to the path in command-line terminal where your microservice is located ->  /Users/himanshubector/Downloads/docker/DockerTest
+
+
+
+Execute the command to build the image -->>  docker build -t dockertestserviceimage .
+
+
+
+Now, execute the command to run the image ------->>  docker run --name dockerTestContainer -it -p 9598:9598 -d dockertestserviceimage
+
+
+
